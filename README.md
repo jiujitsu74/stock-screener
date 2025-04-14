@@ -36,4 +36,4 @@ See `TASKS.md` for:
 - Integration points
 - Performance metrics
 - Testing instructions
-- Troubleshooting guide 
+- Troubleshooting guide
