@@ -1,0 +1,26 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+ALWAYS reference the TASKS.md file at the root of the project before working on any code.
+
+This file contains:
+- Current task statuses (PENDING, IN_PROGRESS, COMPLETED)
+- Detailed task descriptions and acceptance criteria
+- System architecture information
+- Integration points between components
+- Code reference examples
+
+When working on tasks:
+1. Only work on tasks with status PENDING and priority HIGH when all dependencies are COMPLETED
+2. Update task status from PENDING to IN_PROGRESS when starting work
+3. Update task status from IN_PROGRESS to COMPLETED when finished
+4. Add implementation notes in the NOTES section of each completed task
+5. Reference existing code patterns from the CODE REFERENCE section
+
+The algorithmic trading system has three main components:
+- Model 1: Stock Screener (Already implemented)
+- Model 2: Portfolio Optimizer (Partially implemented)
+- Model 3: Meta-Optimizer (Not yet implemented)
+- EC2 PyMC Server (Not yet implemented)
